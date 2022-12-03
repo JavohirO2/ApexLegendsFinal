@@ -1,10 +1,10 @@
 ﻿namespace ApexLegendsFinal.Models.guns
 {
-    public class Apex_weapons
+    public class Weapons
     {
-        public int WeapondId { get; set; }
-        public int WeaponTypeId { get; set; }
+        public int WeaponId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Type { get; set; }
     }
 }

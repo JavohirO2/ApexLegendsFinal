@@ -2,7 +2,7 @@
 {
     public class Rank
     {
-        public int RankTypeId { get; set; }
+        public int RankId { get; set; }
 
         public string Rookie { get; set; }
 
@@ -11,6 +11,10 @@
         public string Silver { get; set; }
 
         public string Gold { get; set; }
+
+        public string Platinum { get;set; }
+
+        public string Diamond{ get; set; }  
 
         public string Master { get; set; }
 
